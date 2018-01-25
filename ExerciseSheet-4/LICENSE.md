@@ -1,0 +1,1 @@
+allCountries.zip and CH.zip (c) www.geonames.org under CC-BY (https://creativecommons.org/licenses/by/4.0/).

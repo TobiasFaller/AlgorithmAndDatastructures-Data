@@ -1,0 +1,7 @@
+Faculty of Engineering:
+	Node 95466
+	OpenStreetMap Node 335711003
+
+Freiburg SC Stadion:
+	Node 136096
+	OpenStreetMap Node 28340550

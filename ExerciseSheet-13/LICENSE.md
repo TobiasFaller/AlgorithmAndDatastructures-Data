@@ -1,0 +1,1 @@
+The map and resulting data is (c) OpenStreetMap contributors.

@@ -145,6 +145,18 @@ public class Main {
 				while (maxSpeedPilot.evalXPath() != -1) {
 					way.maxSpeed = maxSpeedNav.toNormalizedString(maxSpeedNav.getAttrVal("v"));
 				}
+
+				if (way.maxSpeed != null) {
+					try {
+						int speed = Integer.parseInt(way.maxSpeed);
+						if (speed <= 0) {
+							way.maxSpeed = null;
+						}
+					} catch (NumberFormatException formatException) {
+						way.maxSpeed = null;
+					}
+				}
+
 				if (way.maxSpeed == null) {
 					wayInfCount++;
 					way.maxSpeed = "150"; // Define a maximum speed
